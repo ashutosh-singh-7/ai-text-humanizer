@@ -1,4 +1,3 @@
-# ─── Core scientific stack ────────────────────────────────────────────────
 numpy==2.2.2
 scipy==1.15.1
 pandas==2.2.3
@@ -9,14 +8,10 @@ packaging==24.2
 python-dateutil==2.9.0.post0
 pytz==2025.1
 tzdata==2025.1
-
-# ─── Visualization ───────────────────────────────────────────────────────
 altair==5.5.0
 pydeck==0.9.1
 pillow==11.1.0
 rich==13.9.4
-
-# ─── Streamlit stack ─────────────────────────────────────────────────────
 streamlit==1.37.1
 tornado==6.4.2
 protobuf==4.25.3
@@ -25,8 +20,6 @@ blinker==1.9.0
 GitPython==3.1.44
 gitdb==4.0.12
 smmap==5.0.2
-
-# ─── NLP: spaCy ecosystem ────────────────────────────────────────────────
 spacy==3.8.7
 thinc==8.3.2
 srsly==2.5.1
@@ -41,8 +34,6 @@ spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 weasel==0.4.1
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
-
-# ─── NLP: Hugging Face stack ─────────────────────────────────────────────
 torch==2.6.0
 transformers==4.48.3
 tokenizers==0.21.0
@@ -51,16 +42,12 @@ huggingface-hub==0.28.1
 safetensors==0.5.2
 regex==2024.11.6
 nltk==3.9.1
-
-# ─── JSON / Schema / Validation ──────────────────────────────────────────
 attrs==25.1.0
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
 referencing==0.36.2
 rpds-py==0.22.3
 PyYAML==6.0.2
-
-# ─── HTTP / I/O / Utility ────────────────────────────────────────────────
 requests==2.32.3
 urllib3==2.3.0
 idna==3.10
@@ -70,19 +57,15 @@ tqdm==4.67.1
 fsspec==2025.2.0
 smart-open==7.1.0
 cachetools==5.5.1
-tenacity==9.0.0
+tenacity==8.5.0
 colorama==0.4.6
 toml==0.10.2
 six==1.17.0
-
-# ─── Markdown / Text Rendering ───────────────────────────────────────────
 markdown-it-py==3.0.0
 mdurl==0.1.2
 Pygments==2.19.1
 MarkupSafe==3.0.2
 Jinja2==3.1.5
-
-# ─── Miscellaneous ───────────────────────────────────────────────────────
 narwhals==1.25.2
 wasabi==1.1.3
 shellingham==1.5.4
